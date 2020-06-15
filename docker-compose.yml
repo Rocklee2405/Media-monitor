@@ -1,0 +1,9 @@
+version: '3'
+services:
+  monitor:
+    image: social-media-monitor:0.1
+      #build: .
+    volumes:
+      - .:/workspace
+    environment:
+      TZ: Asia/Saigon
